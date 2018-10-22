@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AuthorQuiz from './AuthorQuiz';
+import AuthorQuiz from './components/AuthorQuiz';
 import * as serviceWorker from './serviceWorker';
 import {shuffle, sample} from 'underscore'
 
@@ -46,6 +46,10 @@ const authors = [
     }
 ];
 
+/**
+ * @description get the Author and books to be used in the iteration
+ * @param {Object} authors authors with its attributes
+ */
 function getTurnData(authors) {
     // I step over every author and concatenate into the previous the current author books
     const allBooks = authors.reduce(function(previous, current, index){
