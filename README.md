@@ -1,3 +1,10 @@
+Have a group of Author with their books
+Show one random image of an author and 4 random books in which at least one must be written this author.
+THe user then selects which books was written by him.
+Show the user if he is wrong or right
+
+----------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
