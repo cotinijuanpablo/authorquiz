@@ -1,7 +1,9 @@
-Have a group of Author with their books
-Show one random image of an author and 4 random books in which at least one must be written this author.
-THe user then selects which books was written by him.
-Show the user if he is wrong or right
+We have a group of Author with their books
+We show one random image of an author and 4 random books.
+At least one was wrote by the author in the picture.
+The user then selects which books was written by him.
+Show the user if he is wrong or right.
+
 
 ----------
 
